@@ -7,17 +7,13 @@ public class App {
 
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
-      Integer numero1,numero2,resultado;
+     String texto;
 
+      System.out.println("Digite o texto em minusculo: ");
+      texto=ler.next();
 
-      System.out.println("Digite o numero 1: ");
-      numero1=ler.nextInt();
-
-      System.out.println("Digite o numero 2: ");
-      numero2=ler.nextInt();
-
-        resultado=numero1-numero2;
-        System.out.println("Resultado: "+resultado);
+      texto = texto.toUpperCase();
+        System.out.println("Em maiusculo: "+texto);
         }
 
 
