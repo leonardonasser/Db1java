@@ -16,7 +16,7 @@ public class App {
       System.out.println("Digite o numero 2: ");
       numero2=ler.nextInt();
 
-        resultado=numero1+numero2;
+        resultado=numero1-numero2;
         System.out.println("Resultado: "+resultado);
         }
 
