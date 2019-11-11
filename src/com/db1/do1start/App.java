@@ -9,11 +9,11 @@ public class App {
         Scanner ler = new Scanner(System.in);
      String texto;
 
-      System.out.println("Digite o texto em minusculo: ");
+      System.out.println("Digite o texto em maiusculo: ");
       texto=ler.next();
 
-      texto = texto.toUpperCase();
-        System.out.println("Em maiusculo: "+texto);
+      texto = texto.toLowerCase();
+        System.out.println("Em minusculo: "+texto);
         }
 
 
