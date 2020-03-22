@@ -9,7 +9,7 @@ public class App {
         Scanner ler = new Scanner(System.in);
         double valor1, valor2,valor3;
 
-        System.out.println("Digite o numero 1: ");
+        System.out.println("Digite o num 1: ");
         valor1 = ler.nextInt();
 
         System.out.println("Digite o numero 2: ");
